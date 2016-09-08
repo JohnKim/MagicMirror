@@ -17,7 +17,7 @@ var MMSocket = function(moduleName) {
 
 	self.moduleName = moduleName;
 
-	self.socket = io("http://localhost:8080");
+	self.socket = io("http://mirror.stalk.io:8080");
 	self.socket.on("notification", function(data) {
 		MM.sendNotification(data.notification, data.payload, Socket);
 	});

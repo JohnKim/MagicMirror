@@ -25,7 +25,7 @@ function createWindow() {
 
 	// and load the index.html of the app.
 	//mainWindow.loadURL('file://' + __dirname + '../../index.html');
-	mainWindow.loadURL("http://localhost:" + config.port);
+	mainWindow.loadURL("http://mirror.stalk.io:" + config.port);
 
 	// Open the DevTools if run with "npm start dev"
 	if(process.argv[2] == "dev"){
