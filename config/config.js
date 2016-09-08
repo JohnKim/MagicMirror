@@ -13,12 +13,8 @@ var config = {
 
 	modules: [
 		{
-			module: 'helloworld',
+			module: 'hyuna',
 			position: 'middle_center', // This can be any of the regions.
-			config: {
-          // See 'Configuration options' for more information.
-					text: 'HIHIHIHI!'
-      }
 		},
 		{
 			module: 'alert',
